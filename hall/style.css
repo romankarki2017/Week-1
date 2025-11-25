@@ -1,0 +1,29 @@
+
+.header{padding: 20px;
+    text-align: center; 
+    border: 2px solid #000000;
+    margin-bottom: 10px;
+    }
+.sidebar{ width: 25%; 
+    float: left; 
+    /* padding: 20px;*/
+    height: 600px; 
+    border: 2px solid black; 
+    text-align: center;
+    /*box-sizing: border-box;*/ }
+.main{
+    width: 73.50%; float: right;
+      /* padding: 20px;  */
+    height: 600px; border: 2px solid black; 
+    margin-bottom: 10px; 
+    text-align: center;
+     /* box-sizing: border-box; */
+    } 
+.footer{ clear: both; 
+    padding: 20px; 
+    text-align: center; 
+    border: 2px solid black; }
+
+
+
+
