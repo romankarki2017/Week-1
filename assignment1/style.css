@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+header {
+    background:aquamarine;
+    text-align: center;
+    color: black;
+    padding: 10px;
+}
+
+nav a {
+    margin: 0 10px;
+    padding: 8px 15px;
+    border: 1px solid black;
+    color: black;
+    font-weight: bold;
+    background: white;
+    text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+    background: aquamarine;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+footer button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+footer button:hover {
+    background-color: #f0f0f0;
+}
+
+/* Page 1 */
+
+/* main */
+.main {
+    width: 100%;
+    height: 700px;
+}
+
+/* left and right columns */
+.left, .right {
+    box-sizing: border-box;
+    width: 49%;
+    height: 100%;
+    float: left;
+}
+
+/* lwft */
+.left {
+    margin-right: 1%;
+    background-color: burlywood;
+    position: relative;
+}
+
+.small-img {
+    width: 250px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+/* right*/
+.right {
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+    background: #f2f2f2;
+}
+
+/* two row at left*/
+.top, .bottom {
+    width: 100%;
+    height: 50%;
+}
+
+.top {
+    padding: 20px;
+}
+
+.big-img {
+    border: 1px solid blue;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Page 2 */
+
+.main-container {
+    display: flex;
+    gap: 0%;
+    width: 100%;
+    height: 700px;
+}
+
+.column {
+    flex: 1;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f2f2;
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
+.column1 {
+    background-color: #f8b400;
+}
+
+.column2 {
+    background-color: #4caf50;
+}
+
+.column3 {
+    background-color: #2196f3;
+}
+
+.column:hover {
+    background-color: #d0d0d0;
+}
+
+/* page 3*/
+
+.page3-body {
+    position: relative;
+    height: 700px;
+    padding: 20px;
+}
+
+/* Topleft clickable text */
+.top-left-text {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: large;
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+/* Topright image*/
+.top-right-img {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 300px;
+    cursor: pointer;
+}
+
+.footer-text {
+    display: inline-block;
+    transition: transform 1s;
+}
+
+#footer-text:target {
+    transform: translateY(200px); /* moves footer text down */
+}
