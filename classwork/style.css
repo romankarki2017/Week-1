@@ -1,0 +1,45 @@
+
+.header{padding: 20px;
+    text-align: center; 
+    font-weight: bold;
+    background: rgb(19, 93, 242);
+    }
+
+.nav{padding: 20px;
+    text-align: center;
+    background: rgb(84, 189, 234);
+
+}
+.sidebar{ width: 75%; 
+    float: none; 
+    height: 600px; 
+    text-align: center;
+    background: rgb(98, 78, 227);
+ }
+.main{
+    width: 25%; 
+    float: none;
+    height: 600px;  
+    text-align: center;
+    background: rgb(148, 146, 236);
+    } 
+.footer{ clear: both; 
+    padding: 20px; 
+    text-align: center; 
+    background: rgb(110, 207, 210); 
+}
+nav a {
+    margin: 0 10px;
+    padding: 8px 15px;
+    border: 1px solid black;
+    color: black;
+    background: white;
+    text-decoration: none;
+}
+@media screen and (min-width:300px) and (max-width:600px) {
+    
+    
+}
+
+
+

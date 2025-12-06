@@ -174,9 +174,9 @@ footer button:hover {
 #footer-text:target {
     transform: translateY(200px); /* moves footer text down */
 }
-@media screen and (max-width:500px) {
+@media screen and (min-width:300px) and (max-width:600px) {
     body{
-        background: red;
+        background: brown;
     }
     
 }
