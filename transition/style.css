@@ -1,0 +1,31 @@
+.main{
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+    background-color: yellow;
+    box-shadow: 10px 5px 3px 2px rgb(70, 70, 70);
+    transition: width 1s, height 1s, transform 2s;
+
+    animation-name: test;
+    animation-duration: 10s;
+    animation-iteration-count: 10;
+}
+
+@keyframes test {
+    0%{background-color: aliceblue;}
+    10%{background-color: darkblue;}
+    20%{background-color: darkgoldenrod;}
+    30%{background-color: aqua;}
+    40%{background-color: black;}
+    50%{background-color: brown;}
+    60%{background-color: blueviolet;}
+    70%{background-color: pink;}
+    80%{background-color: yellow;}
+    90%{background-color: green;}
+    100%{background-color: palevioletred;}
+
+}
+
+.main:hover{
+    width: 500px;
+}
