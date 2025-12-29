@@ -1,0 +1,26 @@
+.main{
+    background-color: rgb(121, 167, 206);
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;    
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    font-size: large;
+
+}
+
+.grid-container{
+    display: grid;
+    align-content: center;
+    height: auto;
+    padding: auto;
+    border: 10px solid black;
+    grid-column: span 2;
+
+}
+
+.itm{
+    background-color: aqua;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+}
